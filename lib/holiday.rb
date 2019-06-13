@@ -81,5 +81,8 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.each do |season, holiday|
     holiday.collect do |each_holiday, decoration|
       if decoration == "BBQ"
-        return each_holiday
+        each_holiday
+      end
+    end
+  end
 end
