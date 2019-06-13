@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_supplies)
     holiday.map do |each_holiday, decoration|
       answer = []
       if decoration.include?("BBQ")
-        answer << each_holiday.compact
+        answer << each_holiday
       end
     end
   end
