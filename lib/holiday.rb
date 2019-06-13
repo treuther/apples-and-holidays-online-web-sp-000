@@ -82,6 +82,8 @@ def all_holidays_with_bbq(holiday_supplies)
     holiday.map do |each_holiday, decoration|
       if decoration.include?("BBQ")
         each_holiday
+      else
+        nil
       end
     end
   end
