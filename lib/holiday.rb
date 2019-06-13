@@ -84,6 +84,5 @@ def all_holidays_with_bbq(holiday_supplies)
         each_holiday
       end
     end
-    .flatten.compact
   end
 end
