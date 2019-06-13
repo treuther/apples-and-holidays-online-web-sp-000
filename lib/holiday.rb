@@ -87,4 +87,5 @@ answer = []
       end
     end
   end
+  answer
 end
