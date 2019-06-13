@@ -83,7 +83,6 @@ def all_holidays_with_bbq(holiday_supplies)
       if decoration.include?("BBQ")
         each_holiday
           delete_if {|k, v| k.nil?}
-        end
       end
     end
   end
