@@ -81,8 +81,8 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.each do |season, holiday|
     holiday.each do |each_holiday, decoration|
       each_holiday.to_s.chomp
-      if decoration.include?("BBQ")
-        each_holiday
+    each_holiday if decoration.include?("BBQ")
+        
       end
     end
   end
