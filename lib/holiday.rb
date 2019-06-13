@@ -81,7 +81,7 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.each do |season, holiday|
     holiday.each do |each_holiday, decoration|
       if decoration.include?("BBQ")
-        holiday.values.flatten
+        puts "#{each_holiday}"
       end
     end
   end
