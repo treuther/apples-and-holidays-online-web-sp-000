@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_supplies)
     holiday.each do |each_holiday, decoration|
       each_holiday.to_s.chomp
     each_holiday if decoration.include?("BBQ")
-        
+
       end
     end
   end
