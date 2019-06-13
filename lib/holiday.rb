@@ -80,9 +80,8 @@ def all_holidays_with_bbq(holiday_supplies)
   # include the string "BBQ"
   holiday_supplies.map do |season, holiday|
     holiday.map do |each_holiday, decoration|
-      if decoration.include?("BBQ")
-        each_holiday.compact
+      holiday if decoration.include?("BBQ")
       end
-    end
+    end.flatten.compact
   end
 end
